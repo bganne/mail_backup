@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 # Backup emails from imap account into mbox files
 # it will backup AND REMOVE FROM IMAP all emails prior to current year
 # Each year is backuped in its own mbox file
@@ -18,8 +20,6 @@
 # 
 #  0. You just DO WHAT THE FUCK YOU WANT TO.
 
-
-#!/usr/bin/env python
 import sys
 import imaplib
 import getpass
